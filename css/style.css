@@ -1,0 +1,34 @@
+body {
+    font-weight: 100;
+    text-align: center;
+}
+
+.wrap {
+    width: 60%;
+    margin: 0 auto;
+    display: inline;
+}
+
+#ingredienten {
+    max-width: 30%;
+    text-align: left;
+    margin-left: 5%;
+    background-color: yellow;
+    float: left;
+}
+
+#size {
+    max-width: 30%;
+    text-align: left;
+    margin-left: 5%;
+    background-color:lightblue;
+    float: left;
+}
+
+#createPizza {
+    max-width:30%;
+    float:left;
+    text-align: left;
+    margin-left: 5%;
+    background-color:grey;
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Mozarella",
+        "sort": "A light salty cheese.",
+        "description": "Basic! Just put this Cheese on your Pizza!!",
+        "price": 10,
+        "bake-time": 2
+    },
+    {
+        "name": "Onion",
+        "sort": "A Vegetable! Watch your Eye or Cry!",
+        "description": "Take the Onion out of his Coat.. And Put it on your Pizza!!",
+        "price": 0.50,
+        "bake-time": 1
+    },
+    {
+        "name": "Pepperoni",
+        "sort": "A garlic-like saussage grinded with peppers",
+        "description": "Slice it like a King!! And Put it on the Pizza!",
+        "price": 3,
+        "bake-time": 6
+    },
+    {
+        "name": "Mushroom",
+        "sort": "A non-tastable ingredient! Happy Tripping! ",
+        "description": "Eat this before creating your Pizza! Happy Tripping!!",
+        "price": 10,
+        "bake-time": 2
+    },
+    {
+        "name": "Pineapple",
+        "sort": "A sweet fruit!!! Choose this together with Ham for a nice combination!.",
+        "description": "Grind the Pineapple till pulp! Then throw it on your Pizza",
+        "price": 1,
+        "bake-time": 1
+    },
+    {
+        "name": "Mud",
+        "sort": "To ruin your Pizza, or create it for some birds",
+        "description": "Are you Serious?? You have Chosen Mud?? Take it from your backyard!",
+        "price": 0,
+        "bake-time": 2
+    },
+    {
+        "name": "Ham",
+        "sort": "No Comment.. It is ham",
+        "description": "An salty ingredient took from the... of an pig",
+        "price": 3,
+        "bake-time": 7
+    },
+    {
+        "name": "Anchovis",
+        "sort": "The most Nasty, Horrible Ingredient ever chosen!",
+        "description": "Bad Choice... Why did you choose this one?",
+        "price": 4,
+        "bake-time": 10
+    }
+]

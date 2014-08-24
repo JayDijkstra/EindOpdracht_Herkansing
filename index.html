@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>IngredientenFeest</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<h1>Pizza Maker</h1>
+
+<h2>Choose some lovely ingredients to create your own lovely <strong>randomized</strong> Pizza.</h2>
+
+<form id="addIngredient" action="">
+    <input type="text" id="voegtoe" placeholder="Want an Own Ingredient?"/>
+    <input type="submit" value="Add It!"/>
+</form>
+
+
+<script type="text/template" id="ingredientsTemplate">
+    <p>
+        <p data-ingredient='<%= ingrName %>'><strong><%= ingrName %></strong></p>
+    </p>
+    <p>
+        <p data-description='<%= ingrSort %>'<em><%= ingrSort %></em>
+    </p>
+</script>
+
+<script type="text/template" id="sizeTemplate">
+    <p data-size="<%= sizeName %>"><strong><%= sizeName %></strong></p>
+    <em><%= sizeSort %></em>
+</script>
+
+<script type="text/template" id="recipeTemplate">
+    <p><%= ingredient %> </p>
+</script>
+
+
+
+<!--Ingredienten waar personen uit moeten kiezen!-->
+<div id="ingredienten">
+    <h2><em>Ingrediënts</em></h2>
+</div>
+
+<div id="size">
+    <h2><em>Sizes</em></h2>
+</div>
+
+<div id="createPizza">
+    <h2><em>What you have chosen so far!</em></h2>
+    <h3>Ingrediënts!</h3>
+    <ul id="gekozenIngredient"></ul>
+    <input type="submit" id="calculate" value="What To Do?"/>
+</div>
+
+
+
+
+<!--Voeg drie script libraries toe die vereist zijn voor het gebruiken van BackBone-->
+<script src="js/required/underscore.js"></script>
+<script src="js/required/jquery.js"></script>
+<script src="js/required/backbone.js"></script>
+
+<!--Initialize script -->
+<script src="js/init.js"></script>
+
+<!--Onderstaand worden de modellen ingeladen-->
+<script src="js/models/Ingredient.js"></script>
+
+<!--Onderstaand worden de collecties ingeladen-->
+<script src="js/collections/IngredientCollection.js"></script>
+<script src="js/collections/SizeCollection.js"></script>
+
+
+<!--De uiteindelijke views worden ook toegevoegd.-->
+<script src="js/views/AddIngredient.js"></script>
+<script src="js/views/IngredientView.js"></script>
+<script src="js/views/SizeView.js"></script>
+<script src="js/views/RecipeView.js"></script>
+
+<script src="js/main.js"></script>
+
+
+</body>
+</html>

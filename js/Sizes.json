@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Lili-Small",
+        "sort": "Very Small!!! ",
+        "price": 0.50,
+        "bake-time": 1
+    },
+    {
+        "name": "Small",
+        "sort": "A small pizza!! ",
+        "price": 1,
+        "bake-time": 2
+    },
+    {
+        "name": "Medium",
+        "sort": "Medium Sized Pizza",
+        "price": 3,
+        "bake-time": 6
+    },
+    {
+        "name": "Almoast Large",
+        "sort": "For the ones that are not satisfied with Medium",
+        "price": 3,
+        "bake-time": 7
+    },
+    {
+        "name": "Large",
+        "sort": "A nice Large pizza!!",
+        "price": 5,
+        "bake-time": 3
+    },
+    {
+        "name": "Gigataur",
+        "sort": "This Pizza size is enough for a one week food supply!",
+        "price": 999,
+        "bake-time": 10000
+    }
+]
